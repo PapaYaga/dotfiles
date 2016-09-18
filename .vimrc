@@ -29,13 +29,5 @@ inoremap { {<CR><BS>}<Esc>ko
 "syntax enable
 set laststatus=2
 
-"powerline stuff
-set encoding=utf-8
-set noshowmode
-
-python from powerline.vim import setup as powerline_setup
-python powerline_setup()
-python del powerline_setup
-
 "Start VIM in insert mode
 startinsert
